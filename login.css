@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.all {
+  height: 1080px;
+  width: 100%;
+  background-color: #ffffe6;
+}
+.Ttl {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+h2 {
+  color: #707070;
+}
+
+#form {
+  height: 700px;
+  width: 900px;
+  text-align: center;
+  border: solid 1px #ffffe6;
+  box-shadow: 10px 10px 20px #909090;
+  /* border-radius: 20px; */
+  margin: 0 auto;
+  background-color: #fff;
+  /* margin: 50px; */
+}
+
+#form p {
+  /* justify-content: start; */
+  margin-top: 50px;
+  font-size: 20px;
+  /* display: inline-block; */
+}
+
+.Mail,
+.Pass {
+  font-size: 20px;
+  /* padding: 10px; */
+  height: 60px;
+  width: 600px;
+  border-radius: 10px;
+  border: #505050 1px solid;
+  /* margin: 25px; */
+  margin-bottom: 25px;
+  padding-left: 20px;
+  color: #505050;
+}
+.Submit {
+  height: 50px;
+  width: 150px;
+  font-size: 15px;
+  background-color: #a4d87f;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+}
+
+.Submit:hover {
+  background-color: #7bd03e;
+}
+
+.forgot_Link a {
+  margin-top: 20px;
+  display: block;
+  text-decoration: none;
+  color: #505050;
+
+  /* align-self: start; */
+}
+.forgot_Link :hover {
+  color: #3264fb;
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="546" height="68" viewBox="0 0 546 68">
+  <defs>
+    <filter id="私とあなたの料理を" x="0" y="0" width="546" height="68" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#私とあなたの料理を)">
+    <text id="私とあなたの料理を-2" data-name="私とあなたの料理を" transform="translate(3 52)" fill="#404040" font-size="60" font-family="azuki_font"><tspan x="0" y="0">私とあなたの料理を</tspan></text>
+  </g>
+</svg>
